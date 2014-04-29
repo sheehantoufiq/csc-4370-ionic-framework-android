@@ -1,0 +1,53 @@
+<div ng-controller="HeaderCtrl">
+<div ng-controller="ItemCtrl">
+
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'firend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="Item">
+  <ion-content has-header="true" padding="true">
+    <div class="col col-50"><img src="http://placehold.it/100x100"></a></div>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Product Name">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="SKU #">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Description">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Quantity">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Price">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Location (ie Facility 2)">
+		  </label>
+
+  </ion-content>
+	<div class="tabs tabs-icon-only">
+	  <a class="tab-item" href="#/home">
+	    <i class="icon ion-home"></i>
+	  </a>
+	  <a class="tab-item" href="#/user">
+	    <i class="icon ion-person"></i>
+	  </a>
+	  <a class="tab-item" href="#/add">
+	    <i class="icon ion-plus-circled"></i>
+	  </a>
+	  <a class="tab-item" href="#/search">
+	    <i class="icon ion-search"></i>
+	  </a>
+	  <a class="tab-item" href="#/settings">
+	    <i class="icon ion-gear-a"></i>
+	  </a>
+	</div>
+</ion-view>
+
+</div>
+</div>

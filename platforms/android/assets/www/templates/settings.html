@@ -1,0 +1,53 @@
+<div ng-controller="HeaderCtrl">
+<div ng-controller="LoginCtrl">
+
+<ion-view title="Settings">
+
+  <ion-content class="has-header padding"> 
+    <div class="col col-50"><img src="http://placehold.it/100x100"></a></div>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Name">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Phone #">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Address">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Email">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Old Password">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="New Password">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Confirm New Password">
+		  </label>
+		  <p><button class="button button-block button-stable">Edit</button></p>
+		  <p><button class="button button-block button-calm" ng-click="logout()">Logout</button></p>
+
+  </ion-content>
+	<div class="tabs tabs-icon-only">
+	  <a class="tab-item" href="#/home">
+	    <i class="icon ion-home"></i>
+	  </a>
+	  <a class="tab-item" href="#/user">
+	    <i class="icon ion-person"></i>
+	  </a>
+	  <a class="tab-item" href="#/add">
+	    <i class="icon ion-plus-circled"></i>
+	  </a>
+	  <a class="tab-item" href="#/search">
+	    <i class="icon ion-search"></i>
+	  </a>
+	  <a class="tab-item tab-item-active" href="#/settings">
+	    <i class="icon ion-gear-a"></i>
+	  </a>
+	</div>
+</ion-view>
+
+</div>
+</div>

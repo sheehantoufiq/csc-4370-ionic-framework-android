@@ -1,0 +1,25 @@
+<div ng-controller="LogheadCtrl">
+<div ng-controller="LoginCtrl">
+
+<ion-view title="Login">
+  <ion-content class="has-header padding">
+		<div class="list list-inset">
+
+		<form ng-submit="login()" role="form">
+		  <label class="item item-input">
+		    <input ng-model="email" required type="email" placeholder="Email">
+		  </label>
+		  <label class="item item-input">
+		    <input ng-model="password" required type="password" placeholder="Password">
+		  </label>
+		  <div ng-model="msg" style="color:#D9534F; font-size:12px; font-style: italic;">{{msg}}</div>
+		  <p><button class="button button-block button-calm" type="submit">Sign In</button></p>
+		 </form>
+		  <p><a role="button" class="button button-block button-balanced" href="#/register">Register</a></p>
+		  <p>Forgot Password</p>
+		</div>
+  </ion-content>
+</ion-view>
+
+</div>
+</div>

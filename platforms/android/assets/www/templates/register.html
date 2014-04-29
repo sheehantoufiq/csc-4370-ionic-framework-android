@@ -1,0 +1,24 @@
+<div ng-controller="RegisterCtrl">
+
+<ion-view title="Register">
+  <ion-content class="has-header padding">
+		<div class="list list-inset">
+			<form ng-submit="login()" role="form">
+		  <label class="item item-input">
+		    <input ng-model="email" required type="email" placeholder="Email">
+		  </label>
+		  <label class="item item-input">
+		    <input ng-model="password" required type="password" placeholder="Password">
+		  </label>
+		  <label class="item item-input">
+		    <input ng-model="passwordConfirm" required type="password" placeholder="Password">
+		  </label>
+		  <p><button type="submit" class="button button-block button-balanced">Register</button></p>
+		</form>
+		<p><a href="#/login">Back to Login</a></p>
+
+		</div>
+  </ion-content>
+</ion-view>
+
+</div>
